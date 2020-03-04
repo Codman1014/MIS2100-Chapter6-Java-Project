@@ -10,4 +10,7 @@ throw new IllegalArgumentException("Divisor can't be 0!");
 		return numerator2/denominator2;
 }
 
+	public double multiply(double numerator2, double denominator2) {
+		return numerator2 * denominator2;
+	}
 }
